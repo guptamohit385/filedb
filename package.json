@@ -1,0 +1,23 @@
+{
+  "name": "filedb",
+  "version": "1.0.1",
+  "description": "file based database system",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "fileDb",
+    "file based db",
+    "local file cache",
+    "database of file",
+    "file database",
+    "filedb"
+  ],
+  "author": "Mohit Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.9.2"
+  }
+}
