@@ -1,6 +1,6 @@
 {
-  "name": "cachedb",
-  "version": "1.0.1",
+  "name": "local-json-cache",
+  "version": "1.0.2",
   "description": "file based database system",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "type" : "git",
     "url" : "https://github.com/guptamohit385/filedb.git"
   },
-  "keywords": ["cachedb", "fileDb", "file based db", "local file cache", "database of file", "file database","filedb"],
+  "keywords": ["local cache db", "json cache","local json cache","local-json-cache", "fileDb", "file based db", "local file cache", "database of file", "file database","filedb"],
   "author": "Mohit Gupta",
   "license": "ISC",
   "dependencies": {

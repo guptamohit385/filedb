@@ -1,4 +1,4 @@
-# cachedb
+# local-json-cache
 file system based database and cache system as array based db
 
 ## Understanding
@@ -7,7 +7,7 @@ with help of file system this is a package for using file as database and cache 
 
 ## Example
 ```
-    let obj = require("cachedb")
+    let obj = require("local-json-cache")
     //************************* ARRAY's***************************
 
     obj.arrPush("nodeConf", "192.168.1.1:8082",  "", function(err, result){
