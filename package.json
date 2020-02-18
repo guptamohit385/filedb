@@ -1,5 +1,5 @@
 {
-  "name": "filedb",
+  "name": "cachedb",
   "version": "1.0.1",
   "description": "file based database system",
   "main": "index.js",
@@ -11,14 +11,7 @@
     "type" : "git",
     "url" : "https://github.com/guptamohit385/filedb.git"
   },
-  "keywords": [
-    "fileDb",
-    "file based db",
-    "local file cache",
-    "database of file",
-    "file database",
-    "filedb"
-  ],
+  "keywords": ["cachedb", "fileDb", "file based db", "local file cache", "database of file", "file database","filedb"],
   "author": "Mohit Gupta",
   "license": "ISC",
   "dependencies": {
