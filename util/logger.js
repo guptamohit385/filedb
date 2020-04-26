@@ -37,12 +37,14 @@ logger.debug = (comp, trackingId, messageJson) => {
 }
 
 logger.consoleLogger = (logLevel, comp, trackingId, messageJson) => {
-    console.log({
-      logLevel: logLevel,
-      comp: comp,
-      reqId: trackingId,
-      msg: messageJson
-    });
+    if(process.env.CONSOLE_DEBUG == "*"){
+        console.log({
+        logLevel: logLevel,
+        comp: comp,
+        reqId: trackingId,
+        msg: messageJson
+        });
+    }
 }
 
 module.exports = logger;
