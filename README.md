@@ -22,6 +22,10 @@ CONSOLE_DEBUG=*
     obj.arrPop("nodeConf", "192.168.1.1:8082",  "ID", function(err, result){
     	console.log(err,result);
     });
+
+    obj.arrMultiPush("nodeConf", ["192.168.1.1:808", "abcd"],  "ID", function(err, result){
+    	console.log(err,result);
+    });
     
     obj.arrFindAll("nodeConf",  "ID", function(err, result){
     	console.log(err,result);

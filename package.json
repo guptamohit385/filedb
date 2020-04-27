@@ -1,6 +1,6 @@
 {
   "name": "local-json-cache",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "file based database system",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "url" : "https://github.com/guptamohit385/filedb.git"
   },
   "keywords": ["local cache db", "json cache","local json cache","local-json-cache", "fileDb", "file based db", "local file cache", "database of file", "file database","filedb"],
-  "author": "Mohit Gupta",
+  "author": "guptamohit385",
   "license": "ISC",
   "dependencies": {
     "underscore": "^1.9.2",
