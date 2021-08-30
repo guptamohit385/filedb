@@ -1,6 +1,6 @@
 {
   "name": "local-json-cache",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "file based database system",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,39 @@
     "start": "node index.js"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/guptamohit385/filedb.git"
+    "type": "git",
+    "url": "https://github.com/guptamohit385/filedb.git"
   },
-  "keywords": ["local cache db", "json cache","local json cache","local-json-cache", "fileDb", "file based db", "local file cache", "database of file", "file database","filedb"],
+  "keywords": [
+    "local cache db",
+    "json cache",
+    "local json cache",
+    "local-json-cache",
+    "fileDb",
+    "file based db",
+    "local file cache",
+    "database of file",
+    "file database",
+    "filedb",
+    "jsonDb",
+    "json Db",
+    "mongodb based local file db",
+    "json file db",
+    "local mongodb",
+    "file mongodb",
+    "file cache",
+    "json query",
+    "easy file db",
+    "json db",
+    "json file db",
+    "file query language",
+    "mongo file db"
+  ],
   "author": "kvertex",
   "license": "ISC",
   "dependencies": {
     "underscore": "^1.9.2",
+    "unhell": "^1.0.4",
     "uuid": "^3.3.2"
   }
 }
